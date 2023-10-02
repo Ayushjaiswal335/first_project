@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML List</title>
+</head>
+
+<body>
+    <!-- <ul> -->
+    <!-- <ul type="square">     -->
+    <!-- <ul type="circle">     -->
+   <nav> <ul type="disc">
+        <li>Home</li>
+        <li>about</li>
+        <li>Service</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+    <!-- <ol> -->
+    <ol type="I">
+        <li>Phone</li>
+        <li>Pc</li>
+        <li>Laptop</li>
+        <li>Ipad</li>
+    </ol>
+
+    <!-- Table tag -->
+    <div>
+        <table style="color: brown;">
+            <caption>max scores by different players</caption>
+            <thead>
+                <tr>
+                    <th>s.no</th>
+                    <!-- <th>player name</th>
+                    <th>max score</th> -->
+                    <th colspan="3">max score</th>
+                    <!-- <th>game</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>a</td>
+                    <td>76</td>
+                    <td>bgmi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>f</td>
+                    <td>70</td>
+                    <td>bgmi</td>
+                    </td>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>travel form of your trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name "><br>
+            <label for="Sectionida">
+                <input type="radio" value="Section A" name="Section" id="Sectionida">section A
+            </label>
+            <label for="Sectionidb">
+                <input type="radio" value="Section B" name="Section" id="Sectionidb">section B
+            </label>
+            <label for="Sectionidc">
+                <input type="radio" value="Section C" name="Section" id="Sectionidc">section C
+            </label>
+            <input type="checkbox" name="canteen" id="foodcanteen">
+            <label for="foodcanteen">want food canteen</label><br>
+            <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/inputf -->
+            <textarea name="explain" id="explain" cols="30" rows="10"
+                placeholder="explain why you want to join"></textarea><br>
+
+            <select name="gender" id="gender">
+                <option value="select">gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+
+            </select>
+        </form>
+    </div>
+   
+
+
+</body>
+
+</html>

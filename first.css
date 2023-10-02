@@ -1,0 +1,9 @@
+.main{
+    margin: 2rem;
+ display: flex;
+ width: 10rem;
+ height: 10rem;
+ background-image: url("big3.jpg");
+ border:2px solid red;
+ display: ;
+}
